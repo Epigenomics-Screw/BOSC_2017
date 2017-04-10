@@ -1,5 +1,5 @@
 ---
-title: "Screw: tools and hardware for building reproducible single-cell epigenomics workflows"
+title: "SCREW: tools and hardware for building reproducible single-cell epigenomics workflows"
 author: 
   - name: Kieran O'Neill 
     affiliation: 1,2
@@ -8,6 +8,7 @@ author:
   - name: A Goncearenco
   - name: A Khandekar
   - name: B Busby
+    affiliation: 3
   - name: A Karsan  
     affiliation: 1,2
 address:
@@ -15,6 +16,8 @@ address:
     address: Pathology Department, University of British Columbia, Vancouver, Canada
   - code: 2 
     address: Michael Smith Genome Sciences Centre, BC Cancer Agency, Vancouver, Canada
+  - code: 3 
+    address: NCBI/NLM/NIH, Bethesda, MD USA 
 
 ---
 
@@ -25,5 +28,5 @@ Simultaneously, there has been a drive within bioinformatics towards improved re
 Here we present SCREW (Single Cell Reproducible Epigenomics Workfow). SCREW is a collection of standard tools and workflows for analysing SC-WGBS data, implemented in CWL, and with an accompanying Docker image. SCREW is intended to provide the parts to build fully-reproducible SC-WGBS analyses. Tools provided include quality control visualization, clustering and visualisation of cells by pairwise dissimilarity measures, construction of recapitulated-bulk methylomes from single cells of the same lineage, generation of bigWig methylation tracks for downstream visualization, and wrappers around published tools such as DeepCpG [@Angermueller2016a] and LOLA [@Sheffield2015a]. Screw has the added benefit that CWL's compatibility with interactive GUI-based workflow tools such as Galaxy can lower the barriers to use for less-technical wet lab biologist users. 
 
 
-CWL sources for Screw are available under the MIT license at [https://github.com/Epigenomics-Screw/Screw](https://github.com/Epigenomics-Screw/Screw). Tools and workflows are available from Dockstore (to fill in)
+CWL sources for SCREW are available under the MIT license at [https://github.com/Epigenomics-Screw/Screw](https://github.com/Epigenomics-Screw/Screw). Tools and workflows are available from Dockstore (to fill in)
 
